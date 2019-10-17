@@ -2,14 +2,41 @@ body {
   font-family:inherit;
 }
 
-.panel-heading {
-  border: solid black 1px;
+.header{
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin: 1.2em;
+  width:100%;
+  color:#000;
+}
+.header.navigation {
+float: right;
 }
 
-img {
+.left img {
   float: left;
 }
 
-.right {
+.right img{
+  float:right;
+}
+
+.left{
+  margin: 1px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  width:49%;
+  color:#000
+  float: left;
+  display: inline-block
+
+}
+.right{
+  margin 1px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  width:49%;
+  color:#000;
   float: right;
+  display: inline-block
 }
