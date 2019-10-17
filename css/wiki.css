@@ -1,0 +1,15 @@
+body {
+  font-family:inherit;
+}
+
+.panel-heading {
+  border: solid black 1px;
+}
+
+img {
+  float: left;
+}
+
+.right {
+  float: right;
+}
